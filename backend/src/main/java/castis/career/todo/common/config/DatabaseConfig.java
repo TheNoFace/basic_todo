@@ -1,7 +1,6 @@
 package castis.career.todo.common.config;
 
 import jakarta.persistence.EntityManagerFactory;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings;
@@ -18,7 +17,6 @@ import org.springframework.transaction.PlatformTransactionManager;
 import javax.sql.DataSource;
 import java.util.Map;
 
-@Slf4j
 @Configuration
 @EnableJpaRepositories(basePackages = "castis.career.todo")
 public class DatabaseConfig {
